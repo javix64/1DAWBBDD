@@ -1,0 +1,12 @@
+las vistas
+tabla virtual a partir de una consulta
+	create
+	drop
+	alter
+create view clases_matutinas as
+select * from clases where DiaHora<'15:00:00'
+
+create view monitorfp as
+select * from monitor where titulacion ='fp';
+
+crear una tabla virtual

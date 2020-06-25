@@ -1,0 +1,11 @@
+ER Exercise
+
+7
+ 1- 1,n
+    1,1
+ 2- yes
+    yes
+    no
+
+8
+ 3 PERSON- ! !3 project

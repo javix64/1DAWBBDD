@@ -1,0 +1,15 @@
+-- todo esto en el rol de system que es el administrador de sistemas
+-- Creacion de rol
+CREATE ROLE ventas;
+
+--dejar crear una conexion a rol
+GRANT CREATE SESSION TO ventas;
+GRANT CREATE TABLE TO ventas;
+GRANT CREATE VIEW TO ventas;
+
+--asignar al usuario el privilegio de rol
+GRANT ventas to prueba;
+
+--eliminar privilegios
+REVOKE CREATE TABLE FROM prueba;
+REVOKE CREATE TABLE FROM ventas;

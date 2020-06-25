@@ -1,0 +1,25 @@
+pag 20.
+1 Investigue y explique con sus palabras en que consiste el metodo de busqueda binaria en ficheros.
+	es un algoritmo eficiente que, parte desde la mitad del disco, comprueba el valor que estas buscando con la parte anterior, si es menor, salta a la mitad siguiente...
+2 Realice un ejemplo de busqueda secuencial y binaria en clase suponiendo que tiene que acceder a un valor dentro de un conjunto ordenado de valores. compute y compare el numero de lecturas en ambos procesos para varios valores de busqueda.
+	
+pag35
+1 averigue y explique el significado del termino ACID compliant en el contexto de los sistemas gestores de base de datos.
+	El ACID compliant son caracteristicas de los parametros que clasifican transacciones en el SGBD.
+	Hay cuatro caracteristicas:
+	-Atomicidad: Si una operacion consiste en una serie de pasos, que se cumplen todos o ninguno, es decir, las transacciones son completas.
+	-Consistencia: Solo se empieza lo que se puede acabar, 
+	-Aislamiento:Una operacion no puede afectar a otras.
+	-Durabilidad: Cuando se acaba la operacion, esta persisitira y no se podra deshacer aunque falle el sistema.
+
+2 que se entiende por dise;o fisico de una base de datos? que usuarios son los responsables del mismo?
+	El diseño fisico es la transformacion de entidades en tablas, de instancias a filas y de atributos a columnas.
+	Los usuarios responsables son los que crean la BD, es decir, los administradores de las BD.
+
+3 averigue en que consiste y para que sirve la mineria de datos
+Es un campo de la estadistica referido al proceso que descubre patrones en grandes volumenes de conjuntos de datos. Utiliza metodos como la IA, el aprendizaje automatico, estadistica y BD.
+
+4 que lenguaje especifico usa sql server para implementar el lenguaje sql
+
+5 busque al menos 2 sistemas gestores libres (Open SOurce) y 2 comerciales e invesituge sus ventajas e incovenientes.
+6 haga una investigacion sobre las diferencias fundamentales entre los SGBD orientados a modelos relacionales de datos y los basados en NoSQL, como CouchDB, Redis o Cassandra.
